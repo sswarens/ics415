@@ -1,0 +1,56 @@
+wrapper{
+  width: 1024px;
+  height: 900px;
+  margin: 115px auto 0px;
+  position: relative;
+  background-color: #FFF;
+}
+header{
+  background-color: #333333;
+  color: indianred;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+nav{
+  color: indianred;
+  text-align: left;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+aside{
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+  width: 375px;
+  float:left;
+}
+section{
+  text-align: left;
+  padding: 10px;
+  width: 600px;
+  float:left;
+}
+footer{
+  background-color: #333333;
+  color:indianred;
+  text-align:center;
+  padding:10px;
+  clear:both;
+}
+a:link{
+  color: #333333;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: overline;
+}
+a:visited{
+  color: indianred;
+  text-decoration: underline;
+}
+body{
+  font-family: 'Averia Serif Libre', sans-serif;
+  font-size: 12pt;
+}
