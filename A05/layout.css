@@ -1,0 +1,70 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image:url("http://icons.iconarchive.com/icons/christmaswebmaster/flat-christmas/256/Cupcake-icon.png");
+}
+#header{
+  height: 25%;
+  width: 99.6%;
+  padding: 0px;
+  background-color: #333;
+  color: yellow;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-color: yellow;
+  border-style: inset;
+}
+#nav{
+  color: darkturquoise;
+  background-color: #FFFFFF;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+  border-color: yellow;
+  border-style:groove;
+}
+#aside{
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  width: 25%;
+  float:left;
+}
+#section{
+  color: #333;
+  text-align: left;
+  padding: 10px;
+  width: 71.5%;
+  float:left;
+  border-color: #333;
+  border-style:double;
+}
+#footer{
+  background-color: #333333;
+  color:darkturquoise;
+  text-align:center;
+  clear:both;
+  height: 50px;
+  border-color: yellow;
+  border-style:groove;
+}
+a:link{
+  color: #333333;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: overline;
+}
+a:visited{
+  color: darkturquoise;
+  text-decoration: underline;
+}
+body{
+  font-family: 'Averia Serif Libre', sans-serif;
+  font-size: 12pt;
+}
