@@ -1,0 +1,19 @@
+.page-header{
+  color: indianred;
+}
+.col-md-8{
+  border: dashed thin;
+  padding:5px;
+  margin:0px 50px;
+}
+.col-md-3{
+  border-right: solid thin;
+}
+.page-footer{
+  color:indianred;
+  clear:both;
+  border-top: solid thin;
+  border-bottom: solid thin;
+  padding: 5px;
+  margin: 10px;
+}
