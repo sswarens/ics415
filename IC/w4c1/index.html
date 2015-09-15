@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, inital-scale=1" name="viewport">
+  <title>Shonelle Swarens W4C1</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div id="header">
+    Shonelle Swarens<br>
+    Week 4<br>
+    Class 1<br>
+  </div>
+
+  <div class="contents">
+  <div class="col-md-8">
+    This page is meant to be practice for three event handlers:<br>
+    <ul>
+      <li>onclick</li>
+      <li>onmouseover</li>
+      <li>onmouseout</li>
+    </ul>
+    <br>
+    But where are they used? Hm. <p id="mouseOver" onmouseover = "over()">There's one here...which actually changes the div on the right!</p><!--onmouseover--><br><br>
+  </div>
+
+  <div class="col-md-1"></div>
+
+  <div class="col-md-3" id="mouseOverDos" onmouseover="over()">
+    And there is one over here.<br>
+    <!--Button here for onclick-->
+    <p id="clicker" onClick="toColor()">CLICK ME. you know you want to.</p>
+    <br>
+    Even down there! (yes, the footer).
+  </div>
+  </div>
+
+  <div id="footer" onmouseout="hoverout()">
+    <!--onmouseout-->
+    Copyright (C) Shonelle Swarens <br>
+    You have tried mouse out <span id="mouseOut">0</span> times in this div.
+  </div>
+  </div>
+
+  <!--All the scripts for the event handlers-->
+  <script>
+    var x = 0;
+    function toColor() {
+      document.getElementById("clicker").style.color = "slateblue";
+    }
+
+    function over(){
+      var first = document.getElementById("mouseOver");
+      var second = document.getElementById("mouseOverDos");
+      second.style.backgroundColor = "springgreen";
+    }
+
+    function hoverout(){
+      var third = document.getElementById("mouseOut");
+      third.innerHTML = x+=1;
+      third.style.fontSize="25pt";
+
+    }
+  </script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+  <script src="js/jquery.responsiveiframe.js"></script>
+  <script src="js/ios-orientationchange-fix.js"></script>
+</body>
+</html>
