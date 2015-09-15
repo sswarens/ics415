@@ -1,0 +1,36 @@
+.page-header{
+  height: 25%;
+  background-color: lightsalmon;
+  border-top: thin;
+  border-bottom: double;
+  font-family: 'Sacramento', cursive;
+  width: 100%;
+}
+.navbar{
+  height: 50px;
+  font-family: 'Sue Ellen Francisco', sans-serif;
+  font-size: 18pt;
+}
+.col-md-8{
+  padding:5px;
+  margin:0px 50px;
+  font-family: 'Sue Ellen Francisco', sans-serif;
+  font-size: 18pt;
+}
+.col-md-3{
+  width: 25%;
+  background-color: lightgoldenrodyellow;
+  border-right: thin;
+  font-family: 'Sue Ellen Francisco', sans-serif;
+  font-size: 18pt;
+}
+.page-footer{
+  clear:both;
+  padding: 5px;
+  margin: 10px;
+  height: 50px;
+  background-color: lightsalmon;
+  border-top: double;
+  font-family: 'Sue Ellen Francisco', sans-serif;
+  font-size: 14pt;
+}
