@@ -1,0 +1,73 @@
+<!--include javascript; get query string from url; parse string and build table-->
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, inital-scale=1" name="viewport">
+  <title>Shonelle Swarens W4C2</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div id="header">
+    Shonelle Swarens<br>
+    Week 4, Class 2<br>
+  </div>
+
+  <div class="contents">
+    <div class="col-md-3">
+      Process Page.<br>
+      <a href="form.html">Back to the forms page.</a><br>
+      <br>
+      Collects the user's name, address, and phone number from the forms page.<br>
+      Then creates a table to hold all the information.<br><br>
+    </div>
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-8">
+      <table id="myTable">
+      </table>
+
+      <script>
+        var query = location.search.slice(1).split("&");
+
+        for(var i = 0; i < query.length ; i++){
+          var split = query[i].split("=");
+
+          var table = document.getElementById("myTable");
+          var row = table.insertRow(0);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          cell1.innerHTML = split[0];
+          cell2.innerHTML = split[1];
+      }
+      </script>
+
+    </div>
+  </div>
+
+  <div id="footer">
+    Copyright (C) Shonelle Swarens <br>
+  </div>
+
+
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+<script src="js/jquery.responsiveiframe.js"></script>
+<script src="js/ios-orientationchange-fix.js"></script>
+</body>
+</html>
