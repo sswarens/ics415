@@ -1,0 +1,26 @@
+#header{
+  background-color: #333333;
+  padding: 10px;
+  color: lightseagreen;
+  border-top: thin;
+  border-bottom: double;
+  font-family: 'Lobster', cursive;
+  font-size: 25pt;
+  width: 100%;
+}
+.col-md-12{
+  background-color: lightseagreen;
+  color: #333333;
+  border-right: thin;
+  font-family: 'Chewy', sans-serif;
+  font-size: 15pt;
+}
+#footer{
+  clear:both;
+  padding: 10px;
+  background-color: #333333;
+  color: lightseagreen;
+  border-top: double;
+  font-family: 'Lobster', sans-serif;
+  font-size: 14pt;
+}
