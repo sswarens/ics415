@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, inital-scale=1" name="viewport">
+  <title>Shonelle Swarens W5C2</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div class="container-fluid">
+  <div id="header">
+    Shonelle Swarens<br>
+    Week 5<br>
+    Class 2<br>
+  </div>
+
+  <div class="contents">
+  <div class="col-md-8">
+    This page is meant to be practice for three jQuery handlers:<br>
+    <ul>
+      <li>click</li>
+      <li>mouseenter</li>
+      <li>mouseleave</li>
+    </ul>
+    <br>
+    <p id="clicker">There's one here...CLICK!</p><!--click--><br><br>
+  </div>
+
+  <div class="col-md-1"></div>
+
+  <div class="col-md-3" id = "entrance">
+    And there is one over here.<br>
+    <!--Button here for onclick-->
+    Mouse enters here.
+    <br>
+    Even down there! (yes, the footer).
+  </div>
+  </div>
+
+  <div id="footer">
+    Copyright (C) Shonelle Swarens <br>
+  </div>
+  </div>
+
+  <!--All the scripts for the event handlers-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("p").click(function(){
+        document.getElementById("clicker").style.color = "orange";
+      });
+    $("#entrance").mouseenter(function(){
+      document.getElementById("entrance").style.backgroundColor = "orange";
+      document.getElementById("entrance").style.borderColor = "teal";
+      document.getElementById("entrance").style.border = "inset";
+
+    });
+    $("#footer").mouseleave(function(){
+      document.getElementById("footer").style.backgroundColor = "orange";
+      document.getElementById("footer").style.border = "groove";
+
+    });
+  });
+  </script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'></script>
+  <script src="js/jquery.responsiveiframe.js"></script>
+  <script src="js/ios-orientationchange-fix.js"></script>
+</body>
+</html>

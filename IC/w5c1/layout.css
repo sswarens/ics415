@@ -1,0 +1,33 @@
+#header{
+  background-color: #333333;
+  color: deepskyblue;
+  border-top: thin;
+  border-bottom: double;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25pt;
+  width: 100%;
+  padding: 10px;
+}
+.col-md-8{
+  padding:5px;
+  margin:0px 50px;
+  font-family: 'Abel', sans-serif;
+  font-size: 18pt;
+}
+.col-md-3{
+  background-color: #333333;
+  color: deepskyblue;
+  border-right: thin;
+  border: double;
+  font-family: 'Abel', sans-serif;
+  font-size: 15pt;
+}
+#footer{
+  clear:both;
+  padding: 10px;
+  background-color: #333333;
+  color: deepskyblue;
+  border-top: double;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14pt;
+}
