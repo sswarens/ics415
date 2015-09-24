@@ -1,0 +1,25 @@
+#header{
+  background-color: #fdfd96;
+  color: skyblue;
+  border-top: thin;
+  border-bottom: double;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 25pt;
+  width: 100%;
+  padding: 10px;
+}
+.col-md-12{
+  padding:5px;
+  margin:0px 50px;
+  font-family: 'Abel', sans-serif;
+  font-size: 18pt;
+}
+#footer{
+  clear:both;
+  padding: 10px;
+  background-color: #fdfd96;
+  color: skyblue;
+  border-top: double;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 14pt;
+}
