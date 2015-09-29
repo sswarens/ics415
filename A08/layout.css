@@ -1,0 +1,52 @@
+#header{
+  background-color: lightseagreen;
+  color: white;
+  border-top: thin;
+  border-bottom: groove;
+  font-family: 'Chewy', sans-serif;
+  font-size: 25pt;
+  padding: 10px;
+  text-align: center;
+}
+#col-md-12{
+  padding: 10px;
+}
+p{
+  font-family: 'Arvo', sans-serif;
+  font-size: 13pt;
+}
+#footer{
+  clear:both;
+  padding: 10px;
+  background-color: lightseagreen;
+  color: white;
+  border-top: inset;
+  font-family: 'Chewy', sans-serif;
+  font-size: 14pt;
+  text-align: center;
+}
+#one{
+  background-color: #333333;
+  color: lightseagreen;
+  padding: 5px;
+}
+#two{
+  background-color: #333333;
+  color: lightseagreen;
+  padding: 5px;
+}
+#three{
+  background-color: #333333;
+  color: lightseagreen;
+  padding: 5px;
+}
+#four{
+  background-color: #333333;
+  color: lightseagreen;
+  padding: 5px;
+}
+#five{
+  background-color: #333333;
+  color: lightseagreen;
+  padding: 5px;
+}
